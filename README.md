@@ -1,4 +1,26 @@
-# cordova-network-tips
-watch network, auto show or close tips 
+### install cordova
+~~~
+cordova plugin add cordova-plugin-network-information
 
-![demo](https://github.com/Jackey-Sparrow/cordova-network-tips/blob/master/disconnect.PNG)
+add ngCordova to you index.html
+~~~
+
+### usage
+~~~
+
+/**
+	 * $cordovaNetWorkTips
+	 *
+	 * @example
+	 *
+	 * // 1. inject to main app modules
+	 * angular.module('mainApp',['$cordovaNetWorkTips']);
+	 *
+	 * // 2. make sure disconnect has value
+	 * $rootScope.disConnect = 'disConnect'; // you can do the global translation here
+	 *
+	 * @example
+*/
+
+~~~
+
